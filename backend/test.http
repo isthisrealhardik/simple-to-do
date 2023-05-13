@@ -1,0 +1,19 @@
+get http://localhost:3000
+
+###
+
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "text": "it's not an issue from the backend side of things",
+  "completed": true
+}
+
+###
+
+post http://localhost:3000/todos
+
+###
+
+GET http://localhost:3000/todos
